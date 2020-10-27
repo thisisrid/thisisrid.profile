@@ -37,8 +37,9 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    padding-bottom: 50px;
+    top: 40%;
+    /* bottom: 110px; */
+    /* padding-bottom: 50px; */
 }
 .overlay-image {
 position: absolute;
