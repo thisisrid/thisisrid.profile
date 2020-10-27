@@ -1,5 +1,5 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
+   
 }
 
 .banner-container {
@@ -9,5 +9,35 @@ body {
     background-color: rgb(240, 34, 27);
     border: black solid 2px;
     border-radius: 5%;
+    font-family: 'Josefin Sans', sans-serif;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.864);
+}
+
+/* carousel........................................ */
+.container-xlg {
+    margin-top: 15rem;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: white;
+}
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+.overlay-image {
+position: absolute;
+background-size: cover;
+background-position: center;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+opacity: .5;
 }
