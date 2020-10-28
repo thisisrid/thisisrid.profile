@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: rgb(0, 0, 0);
    
 }
 
@@ -16,7 +16,7 @@ body {
 
 /* carousel........................................ */
 .container-xlg {
-    margin-top: 15rem;
+    margin-top: 4rem;
 }
 
 .navbar-brand { 
@@ -26,6 +26,7 @@ body {
     border: 2px #FFBF0D solid;
     border-radius: 20%;
 }
+
 
 .carousel-item {
     height: 35rem;
@@ -51,3 +52,60 @@ bottom: 0;
 top: 0;
 opacity: .5;
 }
+
+.about-container {
+   
+ background-color: rgba(3, 63, 64, 0.972);
+}
+
+#sub-nav {
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+}
+   
+
+.my-name {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bio {
+    font-family: 'Teko', sans-serif;
+    color: yellow;
+}
+   
+
+.details-bio 
+   { font-family: 'Caveat', cursive;
+    font-size: large;
+    color: blanchedalmond;
+   
+}
+/* 
+#context {
+    position: relative;
+}
+/*  */
+
+#image {
+    box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.864);
+}
+.container-4 {
+   background-color: #2f382f;
+   
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(229, 251, 26, 0.972);
+    color: black;
+    border-radius: 50%;
+    font-family: 'Teko', sans-serif;
+}
+
+.card {
+    color: white;
+   
+} 
+
