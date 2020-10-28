@@ -1,13 +1,23 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.986);
    
 }
 
+.card-img-overlay {
+    font-family: 'Aclonica', sans-serif;
+    margin-top: 17rem;
+}
+.card-text{
+    font-family: 'Righteous', cursive;
+    color: red;
+    font-size: larger;
+}
+
 .banner-container {
-    background-color:#175b19;
+    background-color:#000000;
 }
 .banner-column {
-    background-color: rgb(240, 34, 27);
+    background-color: rgb(194, 21, 15);
     border: black solid 2px;
     border-radius: 5%;
     font-family: 'Josefin Sans', sans-serif;
@@ -16,7 +26,8 @@ body {
 
 /* carousel........................................ */
 .container-xlg {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+   
 }
 
 .navbar-brand { 
