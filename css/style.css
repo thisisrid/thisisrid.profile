@@ -8,6 +8,11 @@ body {
     font-family: 'Aclonica', sans-serif;
     margin-top: 17rem;
 }
+.picpage {
+    border: black solid;
+    border-radius: 0%;
+}
+
 .card-text{
     font-family: 'Righteous', cursive;
     color: red;
@@ -24,7 +29,12 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.864);
 }
-
+/* 
+.navbar{
+    border-bottom: 2px black solid;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+} */
 
 
 .navbar-brand { 
@@ -99,7 +109,13 @@ opacity: .5;
 
 #image {
     box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.864);
+    transition: .4s linear;
 }
+#image:hover {
+    transform: scale(1.2);
+}
+
+
 .container-4 {
    background-color: #2f382f;
    
@@ -126,15 +142,26 @@ opacity: .5;
     background:radial-gradient( rgba(230, 236, 104, 0.904), rgb(145, 241, 145) );
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.864);
     transition: linear .3s;
-
+    border: solid #0A4445;
 
 }
  
 #probox:hover{
     transform:translateY(-10px);
     
+    
 }
 
 .paragraph {
     color: black;
+}
+
+.container-friends {
+    background-color: #0A4445;
+}
+
+#frnd {
+    border: solid #0A4445  ;
+   
+    margin-bottom: 10px;
 }
