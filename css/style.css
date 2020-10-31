@@ -1,19 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-   overflow-x: hidden;
-}
+
 
 body {
     background-color: rgba(0, 0, 0, 0.986);
-    width:;
+    overflow-x: hidden;
     
 }
 
 .card-img-overlay {
     font-family: 'Aclonica', sans-serif;
     margin-top: 17rem;
-    overflow-x: hidden;
+
 }
 .picpage {
     border: black solid;
