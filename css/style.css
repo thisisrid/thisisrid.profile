@@ -79,6 +79,15 @@ opacity: .5;
  background-color: rgba(3, 63, 64, 0.972);
 }
 
+#navbarSupportedContent {
+    
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: rgb(111, 253, 255) !important;
+}
+
 #sub-nav {
     background-color: black;
     font-family: 'Lobster', cursive;
@@ -205,10 +214,46 @@ opacity: .5;
 }
 .maps {
     padding: 80px !important;
+    
 }
 
 .container-map {
     background-color: #10301F!important;
+    
     font-family:
 Righteous, cursive;
+}
+
+
+/* .....footer */
+
+.cotainer-footer {
+    background-color: rgb(0, 0, 0);
+}
+
+.social-media {
+    background-color: honeydew;
+    width: 60PX;
+    height: 60PX;
+    border-radius: 50%;
+    font-size: 40px;
+   display: inline-block;
+   text-align: center;
+   box-shadow: 0px 5px 5px 2px rgb(0, 0, 0);
+  
+ 
+}
+
+.social-media:hover {
+   background-color: rgb(152, 0, 0);
+   
+
+}
+.fab {
+    transition: .4s ;
+}
+
+.fab:hover {
+    transform: scale(1.6);
+    color: rgb(255, 255, 255);
 }
