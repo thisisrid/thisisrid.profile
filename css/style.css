@@ -20,7 +20,7 @@ body {
 }
 
 .banner-container {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(99, 99, 91));
+    background-image: linear-gradient(rgb(0, 0, 0), #3E4A57);
 }
 .banner-column {
     background-color: rgb(194, 21, 15);
@@ -35,8 +35,9 @@ body {
     padding-bottom: 0%;
     margin-bottom: 0%;
 } */
-
-
+.elt {
+    color: #FF7F00;
+}
 .navbar-brand { 
     font-family: 'Henny Penny', cursive;
     font-weight:bolder;
@@ -161,7 +162,7 @@ opacity: .5;
 }
 
 #frnd {
-    border: solid #0A4445  ;
+    border: solid #0A4445;
    
     margin-bottom: 10px;
 }
@@ -186,4 +187,28 @@ opacity: .5;
     background-color: green;
     color: black !important;
     font-size: 30px;
+}
+
+/* ........................maaap........................ */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.maps {
+    padding: 80px !important;
+}
+
+.container-map {
+    background-color: #10301F!important;
+    font-family:
+Righteous, cursive;
 }
